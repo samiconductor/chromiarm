@@ -17,5 +17,16 @@
     "arm"
   ],
   "author": "Sam Simmons <sam@samiconductor.com> (https://github.com/samiconductor)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "electron-prebuilt": "^1.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samiconductor/chromiarm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samiconductor/chromiarm/issues"
+  },
+  "homepage": "https://github.com/samiconductor/chromiarm#readme"
 }
