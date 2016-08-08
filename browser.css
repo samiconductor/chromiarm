@@ -3,7 +3,6 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  background-color: #555;
 }
 
 * {
@@ -24,6 +23,7 @@ input:disabled, button:disabled {
 .chrome-nav {
   height: 20px;
   display: flex;
+  background-color: #555;
 }
 
 .chrome-nav-urlbar {
@@ -37,4 +37,5 @@ input:disabled, button:disabled {
 
 .chrome-about {
   line-height: 20px;
+  background-color: #555;
 }
