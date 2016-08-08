@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ChromiARM</title>
+    <link rel="stylesheet" href="browser.css">
+
+    <link rel="import" id="import-history" href="chrome/history/index.html">
+    <link rel="import" id="import-urlbar" href="chrome/urlbar/index.html">
+    <link rel="import" id="import-about" href="chrome/about/index.html">
+  </head>
+  <body>
+    <header class="chrome-nav">
+      <section id="js-import-history" class="chrome-nav-history"></section>
+      <section id="js-import-urlbar" class="chrome-nav-urlbar"></section>
+    </header>
+
+    <webview id="js-page" class="chrome-page" src="https://www.google.com" partition="persist:chromiarm"></webview>
+
+    <footer id="js-import-about" class="chrome-about"></footer>
+  </body>
+
+  <script>
+    require('./chrome')
+  </script>
+</html>

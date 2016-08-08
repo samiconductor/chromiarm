@@ -1,0 +1,22 @@
+<template>
+  <style scoped>
+    .history {
+      display: flex;
+    }
+
+    .history-button {
+      line-height: 18px;
+      padding: 0 8px;
+      margin: 0;
+    }
+  </style>
+
+  <div class="history">
+    <button class="history-button" id="js-history-back" disabled>←</button>
+    <button class="history-button" id="js-history-forward" disabled>→</button>
+  </div>
+
+  <script>
+    require('./chrome/history')
+  </script>
+</template>

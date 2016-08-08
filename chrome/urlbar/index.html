@@ -1,0 +1,30 @@
+<template>
+  <style scoped>
+    .url {
+      display: flex;
+    }
+
+    .url-bar, .url-go {
+      line-height: 18px;
+      margin: 0;
+    }
+
+    .url-bar {
+      padding: 0 3px;
+      flex: 1 1 auto;
+    }
+
+    .url-go {
+      padding: 0 8px;
+    }
+  </style>
+
+  <form class="url" id="js-urlbar">
+    <input class="url-bar" name="url" type="text" />
+    <input class="url-go" type="submit" value="Go" />
+  </form>
+
+  <script>
+    require('./chrome/urlbar')
+  </script>
+</template>
