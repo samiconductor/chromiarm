@@ -9,7 +9,7 @@ __Objectives__:
 
 __Subject to Change__:
 
-Suggested modifications to the roadmap are welcome. Submit an [issue](https://github.com/samiconductor/chromiarm/issues/new) describing what you would like and how it should work.
+Suggested modifications to the roadmap are welcome. Add your thoughts to an existing [issue](https://github.com/samiconductor/chromiarm/issues) or [submit a new issue](https://github.com/samiconductor/chromiarm/issues/new) describing what you would like and how it should work.
 
 __Not Doing__:
 
@@ -20,12 +20,12 @@ __Not Doing__:
 - [x] URL bar
 - [x] Backwards/forwards in history
 
-## 0.2.0 (pre-release)
+## 0.1.1 (pre-release)
 
 - [x] Define a roadmap
-- [ ] Pre-release README
+- [x] Pre-release README
 
-## 0.3.0 (pre-release)
+## 0.2.0 (pre-release)
 
 - [ ] Package app for standard systems (Mac, Windows, x86 deb)
 - [ ] Package app for deb/pacman on ARM systems
