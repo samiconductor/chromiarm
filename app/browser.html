@@ -5,9 +5,9 @@
     <title>ChromiARM</title>
     <link rel="stylesheet" href="browser.css">
 
-    <link rel="import" id="import-history" href="chrome/history/index.html">
-    <link rel="import" id="import-urlbar" href="chrome/urlbar/index.html">
-    <link rel="import" id="import-about" href="chrome/about/index.html">
+    <link rel="import" id="import-history" href="renderer/history/index.html">
+    <link rel="import" id="import-urlbar" href="renderer/urlbar/index.html">
+    <link rel="import" id="import-about" href="renderer/about/index.html">
   </head>
   <body>
     <header class="chrome-nav">
@@ -21,6 +21,6 @@
   </body>
 
   <script>
-    require('./chrome')
+    require('./renderer')
   </script>
 </html>

@@ -1,6 +1,6 @@
 const {parse: parseUrl} = require('url')
 const {escape: escapeQueryString} = require('querystring')
-const {valid: validDomain} = require('../../lib/domain')
+const {valid: validDomain} = require('../../../lib/domain')
 
 const page = document.querySelector('#js-page')
 
