@@ -1,14 +1,18 @@
 {
   "name": "chromiarm",
-  "version": "1.0.0",
-  "description": "Minimal web browser for ARM systems built with electron.",
+  "version": "0.1.1",
+  "description": "Minimal electron browser app for ARM systems.",
   "main": "main.js",
-  "devDependencies": {
-    "electron-prebuilt": "^1.3.2"
-  },
   "scripts": {
     "start": "electron app",
-    "test": "node test"
+    "test": "node test",
+    "pack": "build --dir",
+    "dist": "build",
+    "postinstall": "install-app-deps"
+  },
+  "build": {
+    "appId": "com.samiconductor.chromiarm",
+    "category": "public.app-category.utilities"
   },
   "keywords": [
     "web",
@@ -18,9 +22,6 @@
   ],
   "author": "Sam Simmons <sam@samiconductor.com> (https://github.com/samiconductor)",
   "license": "ISC",
-  "dependencies": {
-    "electron-prebuilt": "^1.3.2"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/samiconductor/chromiarm.git"
@@ -28,5 +29,9 @@
   "bugs": {
     "url": "https://github.com/samiconductor/chromiarm/issues"
   },
-  "homepage": "https://github.com/samiconductor/chromiarm#readme"
+  "homepage": "https://github.com/samiconductor/chromiarm#readme",
+  "devDependencies": {
+    "electron-builder": "^5.26.0",
+    "electron-prebuilt": "^1.3.3"
+  }
 }

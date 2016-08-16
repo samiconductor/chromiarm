@@ -1,5 +1,5 @@
 const assert = require('assert')
-const domain = require('../lib/domain')
+const domain = require('../app/lib/domain')
 
 assert(domain.valid('example.com'))
 assert(domain.valid('sub.example.com'))

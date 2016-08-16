@@ -1,0 +1,21 @@
+{
+  "name": "chromiarm",
+  "productName": "ChromiARM",
+  "version": "0.1.1",
+  "description": "Minimal electron browser app for ARM systems.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samiconductor/chromiarm.git"
+  },
+  "keywords": [
+    "electron",
+    "browser",
+    "arm"
+  ],
+  "author": "Sam Simmons <sam@samiconductor.com> (https://github.com/samiconductor)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samiconductor/chromiarm/issues"
+  },
+  "homepage": "https://github.com/samiconductor/chromiarm#readme"
+}
