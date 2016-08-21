@@ -20,6 +20,7 @@ __Consider Doing__:
 - [Publish packages with electron builder](https://github.com/electron-userland/electron-builder/blob/master/docs/Publishing%20Artifacts.md)
 - [Make 16x16 icons look not so terrible](http://www.inkscapeforum.com/viewtopic.php?f=6&t=33)
 - Do builds per platform on [QEMU](http://wiki.qemu.org/) images
+- Describe how Linux folks should [update](https://github.com/electron-userland/electron-builder#auto-update)
 
 ## 0.1.0 (pre-release)
 
@@ -34,61 +35,63 @@ __Consider Doing__:
 ## 0.2.0 (pre-release)
 
 - [x] Package app for Linux (deb only)
+
+## 0.2.1 (pre-release)
+
 - [ ] Package app for ARM systems
 
-## 1.0.0
+## 0.2.2
 
-- [ ] In app updates
-- [ ] Release README
+- [ ] Early release README
 
-## 1.0.1
+## 0.3.0
 
 - [ ] Clean up menus
 
-## 1.0.2
+## 0.3.1
 
 - [ ] About page instead of footer
 
-## 1.1.0
+## 0.4.0
 
 - [ ] Right click menu
 
-## 1.2.0
+## 0.5.0
 
 - [ ] Find on page
 
-## 1.3.0
+## 0.6.0
 
 - [ ] Save bookmarks
 - [ ] Bookmarks menu
 - [ ] Browse bookmarks
 - [ ] Delete bookmarks
 
-## 1.4.0
+## 0.7.0
 
 - [ ] Keep history
 - [ ] Browse history
 - [ ] Clear history
 
-## 1.5.0
+## 0.8.0
 
 - [ ] Clear cookies and data
 - [ ] Browse cookies
 
-## 1.6.0
+## 0.9.0
 
 - [ ] Settings
 - [ ] Set home page
 
-## 1.7.0
+## 0.10.0
 
 - [ ] Set search engine
 
-## 1.8.0
+## 1.0.0
 
 - [ ] Tabs
 
-## 1.9.0
+## 1.1.0
 
 - [ ] SVG Icons
 - [ ] Clean up UI
