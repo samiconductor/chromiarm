@@ -12,7 +12,11 @@
     "browser",
     "arm"
   ],
-  "author": "Sam Simmons <sam@samiconductor.com> (https://github.com/samiconductor)",
+  "author": {
+    "name": "Sam Simmons",
+    "email": "sam@samiconductor.com",
+    "url": "https://github.com/samiconductor"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/samiconductor/chromiarm/issues"

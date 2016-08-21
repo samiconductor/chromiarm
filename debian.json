@@ -1,0 +1,14 @@
+{
+  "genericName": "Web Browser",
+  "section": "web",
+  "categories": ["Network"],
+  "bin": "ChromiARM",
+  "icon": {
+    "32x32": "build/icons/32x32.png",
+    "48x48": "build/icons/48x48.png",
+    "64x64": "build/icons/64x64.png",
+    "128x128": "build/icons/128x128.png",
+    "256x256": "build/icons/256x256.png",
+    "512x512": "build/icons/512x512.png"
+  }
+}

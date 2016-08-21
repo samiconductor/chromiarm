@@ -15,6 +15,12 @@ __Not Doing__:
 
 - Password management - Please use a password manager like [KeePassX](https://www.keepassx.org/) or [LastPass](https://lastpass.com/) for example.
 
+__Consider Doing__:
+
+- [Publish packages with electron builder](https://github.com/electron-userland/electron-builder/blob/master/docs/Publishing%20Artifacts.md)
+- [Make 16x16 icons look not so terrible](http://www.inkscapeforum.com/viewtopic.php?f=6&t=33)
+- Do builds per platform on [QEMU](http://wiki.qemu.org/) images
+
 ## 0.1.0 (pre-release)
 
 - [x] URL bar
@@ -27,8 +33,8 @@ __Not Doing__:
 
 ## 0.2.0 (pre-release)
 
-- [ ] Package app for standard systems (Mac, Windows, x86 deb)
-- [ ] Package app for deb/pacman on ARM systems
+- [x] Package app for Linux (deb only)
+- [ ] Package app for ARM systems
 
 ## 1.0.0
 
